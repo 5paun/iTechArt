@@ -1,7 +1,9 @@
 
 import './js/common'
 import './css/main.css'
+//import './css/font-awesome.min.css'
 import './scss/main.scss'
+
 
 import Bootstrap from 'bootstrap/dist/css/bootstrap.min.css'
 import $ from "jquery/dist/jquery.min.js";
