@@ -19,9 +19,10 @@
     <!-- Приведение стилей к одному виду во всех браузерах -->
     <!-- <link rel="stylesheet" href="css/normalize.css"> -->
     <link href="../style/style.css" rel="stylesheet">
-    <link href="../style/admin.css" rel="stylesheet">
+    <link href="../style/page-reg.css" rel="stylesheet">
     <!-- Иконочные шрифты-->
-  	<link href="../style/font-awesome.min.css" rel="stylesheet">
+    <link href="../style/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -68,7 +69,7 @@
               <div class="header-bottom-logo">
                 <a href="/pages/index.html">
                   <img src="../assets/img/logo.svg" alt="logo">
-                </a>
+                </a>                
               </div>
               <ul class="header-bottom-menu">
                 <li><a href="#">главная страница</a></li>
@@ -95,78 +96,37 @@
       </div>      
     </header>
 
-  	<main>
-      <div class="container wrapper">
-        <div class="row">
-          <div class="col">
-            <ul class="nav nav-tabs" id="myTab" role="tablist">
-              <li class="nav-item">
-                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Users</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Products</a>
-              </li>             
-            </ul>
-            <div class="tab-content" id="myTabContent">
-              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                <table class="table admin-table">
-                  <thead class="thead-dark">
-                    <tr>
-                      <th scope="col">#</th>
-                      <th scope="col">First Name</th>
-                      <th scope="col">Last Name</th>
-                      <th scope="col">Email</th>
-                      <th scope="col">Remove request</th>
-                    </tr>
-                  </thead>
-                  <tbody id="addUser">
-                    <!-- <tr>
-                      <th scope="row">1</th>
-                      <td>Mark</td>
-                      <td>Otto</td>
-                      <td>@mdo</td>
-                      <td><button type="button" class="btn btn-secondary btn-lg">Large button</button></td>
-                    </tr>
-                    <tr>
-                      <th scope="row">2</th>
-                      <td>Jacob</td>
-                      <td>Thornton</td>
-                      <td>@fat</td>
-                      <td><button type="button" class="btn btn-secondary btn-lg">Large button</button></td>
-                    </tr>
-                    <tr>
-                      <th scope="row">3</th>
-                      <td>Larry</td>
-                      <td>the Bird</td>
-                      <td>@twitter</td>
-                      <td><button type="button" class="btn btn-secondary btn-lg">Large button</button></td>
-                    </tr> -->
-                  </tbody>
-                </table> 
-              </div>
-              <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                <table class="table products-table">
-                  <thead class="thead-dark">
-                    <tr>
-                      <th scope="col">#</th>
-                      <th scope="col">Title</th>
-                      <th scope="col">Description</th>
-                      <th scope="col">Price</th>
-                      <th scope="col">Picture</th>
-                      <th scope="col">Tags</th>
-                      <th scope="col">Remove product</th>
-                    </tr>
-                  </thead>
-                  <tbody id="addProduct">                   
-                  </tbody>
-                </table> 
-              </div>
+    <main>
+      <div class="form-style-10">
+        <h1>Sign Up Now!<span>Sign up and tell us what you think of the site!</span></h1>
+        <form>
+            <div class="section"><span>1</span>First Name &amp; Address</div>
+            <div class="inner-wrap">
+                <label>Your Full Name <input type="text" name="field1" /></label>
+                <label>Your Username <input type="text" name="field2" /></label>
             </div>
-          </div>            
-        </div>
-      </div>
+        
+            <div class="section"><span>2</span>Email &amp; Phone</div>
+            <div class="inner-wrap">
+                <label>Email Address <input type="email" name="field3" /></label>
+                <label>Phone Number <input type="text" name="field4" /></label>
+            </div>
+        
+            <div class="section"><span>3</span>Passwords</div>
+                <div class="inner-wrap">
+                <label>Password <input type="password" name="field5" /></label>
+                <label>Confirm Password <input type="password" name="field6" /></label>
+            </div>
+            <div class="button-section">
+              <input type="submit" name="Sign Up" />
+              <span class="privacy-policy">
+              <input type="checkbox" name="field7">You agree to our Terms and Policy. 
+              </span>
+            </div>
+        </form>
     </main>
-    
+
+
     <footer class="footer">
       <div class="container wrapper">
         <div class="row">
@@ -215,6 +175,6 @@
 	  <script>window.jQuery || document.write('<script src="../scripts/jquery-3.3.1.min.js"><\/script>')</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="../scripts/admin.js"></script>
+    <script src="../scripts/reg-page.js"></script>
   </body>
 </html>
