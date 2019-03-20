@@ -19,7 +19,7 @@
     <!-- Приведение стилей к одному виду во всех браузерах -->
     <!-- <link rel="stylesheet" href="css/normalize.css"> -->
     <link href="../style/style.css" rel="stylesheet">
-    <link href="../style/page-reg.css" rel="stylesheet">
+    <link href="../style/page-authoriz.css" rel="stylesheet">
     <!-- Иконочные шрифты-->
     <link href="../style/font-awesome.min.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
@@ -49,11 +49,11 @@
               <a href="tel:+88000006900"><span>+8(800)</span>0006900</a>
             </div>
             <div class="header-top-user">
-              <a href="/pages/page-authoriz.html" class="header-user__log">
+              <a href="#" class="header-user__log">
                 <i class="fa fa-home" aria-hidden="true"></i>
                 <span>Войти</span>
               </a>
-              <a href="#" class="header-user__reg">
+              <a href="/pages/page-reg.html" class="header-user__reg">
                 <i class="fa fa-user" aria-hidden="true"></i>
                 <span>Регистрация</span>
               </a>
@@ -98,30 +98,18 @@
 
     <main>
       <div class="form-style-10">
-        <h1>Sign Up Now!<span>Sign up and tell us what you think of the site!</span></h1>
-        <form>
-          <div class="section"><span>1</span>First Name &amp; Address</div>
-          <div class="inner-wrap">
-            <label>Your Full Name <input type="text" name="field1" /></label>
-            <label>Your Username <input type="text" name="field2" /></label>
-          </div>
-        
-          <div class="section"><span>2</span>Email &amp; Phone</div>
-          <div class="inner-wrap">
-            <label>Email Address <input type="email" name="field3" /></label>
-            <label>Phone Number <input type="text" name="field4" /></label>
-          </div>
-      
-          <div class="section"><span>3</span>Passwords</div>
-          <div class="inner-wrap">
-            <label>Password <input type="password" name="field5" /></label>
-            <label>Confirm Password <input type="password" name="field6" /></label>
+        <h1>Sign In Now!<span>Sign in and tell us what you think of the site!</span></h1>
+        <form>        
+          <div class="inner-wrap">     
+            <label>Your Username <input type="text" name="field1" /></label>
+            <label>Password <input type="password" name="field2" /></label> 
           </div>
           <div class="button-section">
-            <input type="submit" name="Sign Up" />
             <span class="privacy-policy">
-              <input type="checkbox" name="field7">You agree to our Terms and Policy. 
+              <input type="checkbox" name="field3">Remember me
             </span>
+            <a href="#" class="forgot-pass">Forgot Password?</a>
+            <input type="submit" name="Sign In" />
           </div>
         </form>
       </div>

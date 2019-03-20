@@ -4,84 +4,84 @@ const users = [
         "firstName": "Name1",
         "lastName": "Surname1",
         "email": "mail1@mail.ru",
-        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='1'>Large button</button>"
+        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='1'>Remove</button>"
     },
     {
         "id": 2,
         "firstName": "Name2",
         "lastName": "Surname2",
         "email": "mail2@mail.ru",
-        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='2'>Large button</button>"
+        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='2'>Remove</button>"
     },
     {
         "id": 3,
         "firstName": "Name3",
         "lastName": "Surname3",
         "email": "mail3@mail.ru",
-        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='3'>Large button</button>"
+        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='3'>Remove</button>"
     },
     {
         "id": 4,
         "firstName": "Name4",
         "lastName": "Surname4",
         "email": "mail4@mail.ru",
-        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='4'>Large button</button>"
+        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='4'>Remove</button>"
     },
     {
         "id": 5,
         "firstName": "Name5",
         "lastName": "Surname5",
         "email": "mail5@mail.ru",
-        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='5'>Large button</button>"
+        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='5'>Remove</button>"
     },
     {
         "id": 6,
         "firstName": "Name6",
         "lastName": "Surname6",
         "email": "mail6@mail.ru",
-        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='6'>Large button</button>"
+        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='6'>Remove</button>"
     },
     {
         "id": 7,
         "firstName": "Name7",
         "lastName": "Surname7",
         "email": "mail7@mail.ru",
-        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='7'>Large button</button>"
+        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='7'>Remove</button>"
     },
     {
         "id": 8,
         "firstName": "Name8",
         "lastName": "Surname8",
         "email": "mail8@mail.ru",
-        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='8'>Large button</button>"
+        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='8'>Remove</button>"
     },
     {
         "id": 9,
         "firstName": "Name8",
         "lastName": "Surname8",
         "email": "mail8@mail.ru",
-        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='9'>Large button</button>"
+        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='9'>Remove</button>"
     },
     {
         "id": 10,
         "firstName": "Name9",
         "lastName": "Surname9",
         "email": "mail9@mail.ru",
-        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='10'>Large button</button>"
+        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='10'>Remove</button>"
     },
     {
         "id": 11,
         "firstName": "Name10",
         "lastName": "Surname10",
         "email": "mail10@mail.ru",
-        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='11'>Large button</button>"
+        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='11'>Remove</button>"
     },
     {
         "id": 12,
         "firstName": "Name11",
         "lastName": "Surname11",
         "email": "mail11@mail.ru",
-        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='12'>Large button</button>"
+        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='12'>Remove</button>"
     }
 ]
 
@@ -93,7 +93,7 @@ const products = [
         "price": "450$",
         "picture": "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA' alt='Ноутбук'>",
         "tags": "tag-1, tag-2, tag-3, tag-4, tag-5",
-        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='12'>Large button</button>"
+        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='12'>Remove</button>"
     },
     {
         "id": 2,
@@ -102,7 +102,7 @@ const products = [
         "price": "450$",
         "picture": "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA' alt='Ноутбук'>",
         "tags": "tag-1, tag-2, tag-3, tag-4, tag-5",
-        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='12'>Large button</button>"
+        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='12'>Remove</button>"
     },
     {
         "id": 3,
@@ -111,7 +111,7 @@ const products = [
         "price": "450$",
         "picture": "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA' alt='Ноутбук'>",
         "tags": "tag-1, tag-2, tag-3, tag-4, tag-5",
-        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='12'>Large button</button>"
+        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='12'>Remove</button>"
     },
     {
         "id": 4,
@@ -120,7 +120,7 @@ const products = [
         "price": "450$",
         "picture": "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA' alt='Ноутбук'>",
         "tags": "tag-1, tag-2, tag-3, tag-4, tag-5",
-        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='12'>Large button</button>"
+        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='12'>Remove</button>"
     },
     {
         "id": 5,
@@ -129,7 +129,7 @@ const products = [
         "price": "450$",
         "picture": "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA' alt='Ноутбук'>",
         "tags": "tag-1, tag-2, tag-3, tag-4, tag-5",
-        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='12'>Large button</button>"
+        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='12'>Remove</button>"
     },
     {
         "id": 6,
@@ -138,7 +138,7 @@ const products = [
         "price": "450$",
         "picture": "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA' alt='Ноутбук'>",
         "tags": "tag-1, tag-2, tag-3, tag-4, tag-5",
-        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='12'>Large button</button>"
+        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='12'>Remove</button>"
     },
     {
         "id": 7,
@@ -147,7 +147,7 @@ const products = [
         "price": "450$",
         "picture": "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA' alt='Ноутбук'>",
         "tags": "tag-1, tag-2, tag-3, tag-4, tag-5",
-        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='12'>Large button</button>"
+        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='12'>Remove</button>"
     },
     {
         "id": 8,
@@ -156,7 +156,7 @@ const products = [
         "price": "450$",
         "picture": "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA' alt='Ноутбук'>",
         "tags": "tag-1, tag-2, tag-3, tag-4, tag-5",
-        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='12'>Large button</button>"
+        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='12'>Remove</button>"
     },
     {
         "id": 9,
@@ -165,7 +165,7 @@ const products = [
         "price": "450$",
         "picture": "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA' alt='Ноутбук'>",
         "tags": "tag-1, tag-2, tag-3, tag-4, tag-5",
-        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='12'>Large button</button>"
+        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='12'>Remove</button>"
     },
     {
         "id": 10,
@@ -174,7 +174,7 @@ const products = [
         "price": "450$",
         "picture": "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA' alt='Ноутбук'>",
         "tags": "tag-1, tag-2, tag-3, tag-4, tag-5",
-        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='12'>Large button</button>"
+        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='12'>Remove</button>"
     },
     {
         "id": 11,
@@ -183,7 +183,7 @@ const products = [
         "price": "450$",
         "picture": "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA' alt='Ноутбук'>",
         "tags": "tag-1, tag-2, tag-3, tag-4, tag-5",
-        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='12'>Large button</button>"
+        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='12'>Remove</button>"
     },
     {
         "id": 12,
@@ -192,7 +192,7 @@ const products = [
         "price": "450$",
         "picture": "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA' alt='Ноутбук'>",
         "tags": "tag-1, tag-2, tag-3, tag-4, tag-5",
-        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='12'>Large button</button>"
+        "remove": "<button type='button' class='btn btn-secondary btn-lg' data-id='12'>Remove</button>"
     }
 ]
 
