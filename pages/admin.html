@@ -19,7 +19,7 @@
     <!-- Приведение стилей к одному виду во всех браузерах -->
     <!-- <link rel="stylesheet" href="css/normalize.css"> -->
     <link href="../style/style.css" rel="stylesheet">
-    <link href="../style/admin.css" rel="stylesheet">
+    <link href="../style/admin.css" rel="stylesheet">   
     <!-- Иконочные шрифты-->
   	<link href="../style/font-awesome.min.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -117,6 +117,7 @@
                       <th scope="col">Last Name</th>
                       <th scope="col">Email</th>
                       <th scope="col">Remove request</th>
+                      <th scope="col">Remove user</th>
                     </tr>
                   </thead>
                   <tbody id="addUser">
@@ -145,6 +146,10 @@
                 </table> 
               </div>
               <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <button class="btn btn-secondary add-user" data-toggle="modal" data-target="#addNewProduct">
+                  <i class="fa fa-plus"></i>
+                  Add product                  
+                </button>
                 <table class="table products-table">
                   <thead class="thead-dark">
                     <tr>
@@ -207,6 +212,35 @@
         </div>
       </div>
     </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="addNewProduct" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalCenterTitle">+ Add new product</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>        
+                <div class="inner-wrap">     
+                  <label><span class="text-width">Title</span><input type="text" name="field1" /></label>
+                  <label><span class="text-width">Description</span> <textarea name="field2" cols="30" rows="1"></textarea></label> 
+                  <label><span class="text-width">Price</span><input type="text" name="field3" /></label>
+                  <label><span class="text-width">Picture</span><input type="file" name="field4" /></label>
+                  <label><span class="text-width">Tags</span><input type="text" name="field5" /></label>
+                </div>                    
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

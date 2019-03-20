@@ -3,6 +3,17 @@ main {
 	.nav {
 		font-size: 1.8rem;
 	}
+	
+	.tab-pane {
+		position: relative;
+
+		.add-user {
+			position: absolute;
+			top: -3.7rem;
+			right: 0;		
+			font-size: 1.8rem;
+		}	
+	}	
 
 	.table {				
 		background: #ffffff;
@@ -20,6 +31,51 @@ main {
 			width: 9rem;
 			height: 5rem; 
 		}
+	}
+}
+
+.modal {
+	font-size: 1.6rem;		
+	
+	.modal-header {		
+		padding-left: 2rem;
+	}
+
+	.modal-body {
+		padding-top: 2rem;
+		padding-left: 2rem;
+
+		form {		
+
+			label {
+				display: inline-block;
+				margin-bottom: 1rem;
+			}
+	
+			.text-width {
+				display: inline-block;
+				width: 10rem;
+				margin-right: 1rem;
+				border-bottom: 1px solid #333;
+				
+			}
+	
+			textarea {
+				vertical-align: middle;
+				margin: -0.5rem;		
+			}
+	
+			textarea, input {
+				width: 26rem;
+			}		
+		}
+	}	
+
+	.modal-footer {
+		button {
+			font-size: 1.6rem;	
+		}
+			
 	}
 }
 
