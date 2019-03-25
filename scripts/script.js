@@ -1,29 +1,27 @@
-$(function(){
-/* ====== ПОДГРУЗКА ТОВАРОВ ЧЕРЕЗ AJAX ============*/
-    $('.load-more').on('click', function(){
-        const btn = $(this);
-        const loader = btn.find('span');
-        $.ajax({
-            url: 'includes/items.html',
-            type: 'GET',
-            beforeSend: function() {
-                btn.attr('disabled', true);
-                loader.addClass('d-inline-block');
-            },
-            success: function(responce) {
-                setTimeout(function(){
-                    loader.removeClass('d-inline-block');
-                    btn.attr('disabled', false);
-                    $('.after-posts').before(responce);
-                }, 1000);
-            },
-            error: function(){
-                alert('Error!');
-                loader.removeClass('d-inline-block');
-                btn.attr('disabled', false);
-            }
-        });
+$(() => {
+  /* ====== ПОДГРУЗКА ТОВАРОВ ЧЕРЕЗ AJAX ============ */
+  $('.load-more').on('click', function () {
+    const btn = $(this);
+    const loader = btn.find('span');
+    $.ajax({
+      url: 'includes/items.html',
+      type: 'GET',
+      beforeSend() {
+        btn.attr('disabled', true);
+        loader.addClass('d-inline-block');
+      },
+      success(responce) {
+        setTimeout(() => {
+          loader.removeClass('d-inline-block');
+          btn.attr('disabled', false);
+          $('.after-posts').before(responce);
+        }, 1000);
+      },
+      error() {
+        alert('Error!');
+        loader.removeClass('d-inline-block');
+        btn.attr('disabled', false);
+      },
     });
+  });
 });
-
-

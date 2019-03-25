@@ -1,0 +1,26 @@
+{
+  "name": "iTechArt",
+  "version": "1.0.0",
+  "description": "To open the website, you need to switch to the branch \"withoutWebpack\" --> to clone remote repositories on your PC --> to run the file index.html in your favorite browsers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/5paun/iTechArt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/5paun/iTechArt/issues"
+  },
+  "homepage": "https://github.com/5paun/iTechArt#readme",
+  "devDependencies": {
+    "eslint": "^5.15.3",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "prettier-eslint": "^8.8.2"
+  }
+}
