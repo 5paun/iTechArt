@@ -1,0 +1,53 @@
+// ========= FOOTER ============
+.footer {
+  background-color: #bbfcd9;
+  min-height: 19rem;
+
+  .wrapper {
+    padding-top: 2.5rem;
+  }
+
+  &-copyright {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  &-text {
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    text-align: justify;
+  }
+
+  &-clients,
+  &-news {
+    font-weight: bold;
+  }
+
+  &-clients-nav,
+  &-news-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-end;
+
+    li {
+      width: 45%;
+      margin-top: 1.5rem;
+    }
+
+    a {
+      font-weight: bold;
+      color: inherit;
+      font-size: 1.4rem;
+
+      &:hover {
+        color: #fe5f71;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .row div:last-child {
+    padding-left: 3rem;
+  }
+}

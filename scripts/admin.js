@@ -5,8 +5,8 @@ const users = {
     lastName: 'Surname1',
     email: 'mail1@mail.ru',
     removeRequest: '',
-    removeUser:
-      "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='1'>Remove</button>",
+    // removeUser:
+    //   "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='1'>Remove</button>",
   },
   2: {
     id: 2,
@@ -14,8 +14,8 @@ const users = {
     lastName: 'Surname2',
     email: 'mail2@mail.ru',
     removeRequest: '',
-    removeUser:
-      "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='2'>Remove</button>",
+    // removeUser:
+    //   "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='2'>Remove</button>",
   },
   3: {
     id: 3,
@@ -23,8 +23,8 @@ const users = {
     lastName: 'Surname3',
     email: 'mail3@mail.ru',
     removeRequest: '',
-    removeUser:
-      "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='3'>Remove</button>",
+    // removeUser:
+    //   "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='3'>Remove</button>",
   },
   4: {
     id: 4,
@@ -32,8 +32,8 @@ const users = {
     lastName: 'Surname4',
     email: 'mail4@mail.ru',
     removeRequest: '',
-    removeUser:
-      "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='4'>Remove</button>",
+    // removeUser:
+    //   "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='4'>Remove</button>",
   },
   5: {
     id: 5,
@@ -41,8 +41,8 @@ const users = {
     lastName: 'Surname5',
     email: 'mail5@mail.ru',
     removeRequest: '',
-    removeUser:
-      "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='5'>Remove</button>",
+    // removeUser:
+    //   "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='5'>Remove</button>",
   },
   6: {
     id: 6,
@@ -50,8 +50,8 @@ const users = {
     lastName: 'Surname6',
     email: 'mail6@mail.ru',
     removeRequest: '',
-    removeUser:
-      "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='6'>Remove</button>",
+    // removeUser:
+    //   "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='6'>Remove</button>",
   },
   7: {
     id: 7,
@@ -59,8 +59,8 @@ const users = {
     lastName: 'Surname7',
     email: 'mail7@mail.ru',
     removeRequest: '',
-    removeUser:
-      "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='7'>Remove</button>",
+    // removeUser:
+    //   "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='7'>Remove</button>",
   },
   8: {
     id: 8,
@@ -68,8 +68,8 @@ const users = {
     lastName: 'Surname8',
     email: 'mail8@mail.ru',
     removeRequest: '',
-    removeUser:
-      "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='8'>Remove</button>",
+    // removeUser:
+    //   "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='8'>Remove</button>",
   },
   9: {
     id: 9,
@@ -77,8 +77,8 @@ const users = {
     lastName: 'Surname8',
     email: 'mail8@mail.ru',
     removeRequest: '',
-    removeUser:
-      "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='9'>Remove</button>",
+    // removeUser:
+    //   "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='9'>Remove</button>",
   },
   10: {
     id: 10,
@@ -86,8 +86,8 @@ const users = {
     lastName: 'Surname9',
     email: 'mail9@mail.ru',
     removeRequest: '',
-    removeUser:
-      "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='10'>Remove</button>",
+    // removeUser:
+    //   "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='10'>Remove</button>",
   },
   11: {
     id: 11,
@@ -95,8 +95,8 @@ const users = {
     lastName: 'Surname10',
     email: 'mail10@mail.ru',
     removeRequest: '',
-    removeUser:
-      "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='11'>Remove</button>",
+    // removeUser:
+    //   "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='11'>Remove</button>",
   },
   12: {
     id: 12,
@@ -104,8 +104,8 @@ const users = {
     lastName: 'Surname11',
     email: 'mail11@mail.ru',
     removeRequest: '',
-    removeUser:
-      "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='12'>Remove</button>",
+    // removeUser:
+    //   "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='12'>Remove</button>",
   },
 };
 
@@ -118,8 +118,8 @@ const products = {
     picture:
       "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA' alt='Ноутбук'>",
     tags: 'tag-1, tag-2, tag-3, tag-4, tag-5',
-    remove:
-      "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='1'>Remove</button>",
+    // remove:
+    //   "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='1'>Remove</button>",
   },
   2: {
     id: 2,
@@ -129,8 +129,8 @@ const products = {
     picture:
       "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA' alt='Ноутбук'>",
     tags: 'tag-1, tag-2, tag-3, tag-4, tag-5',
-    remove:
-      "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='2'>Remove</button>",
+    // remove:
+    //   "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='2'>Remove</button>",
   },
   3: {
     id: 3,
@@ -140,8 +140,8 @@ const products = {
     picture:
       "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA' alt='Ноутбук'>",
     tags: 'tag-1, tag-2, tag-3, tag-4, tag-5',
-    remove:
-      "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='3'>Remove</button>",
+    // remove:
+    //   "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='3'>Remove</button>",
   },
   4: {
     id: 4,
@@ -151,8 +151,8 @@ const products = {
     picture:
       "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA' alt='Ноутбук'>",
     tags: 'tag-1, tag-2, tag-3, tag-4, tag-5',
-    remove:
-      "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='4'>Remove</button>",
+    // remove:
+    //   "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='4'>Remove</button>",
   },
   5: {
     id: 5,
@@ -162,8 +162,8 @@ const products = {
     picture:
       "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA' alt='Ноутбук'>",
     tags: 'tag-1, tag-2, tag-3, tag-4, tag-5',
-    remove:
-      "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='5'>Remove</button>",
+    // remove:
+    //   "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='5'>Remove</button>",
   },
   6: {
     id: 6,
@@ -173,8 +173,8 @@ const products = {
     picture:
       "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA' alt='Ноутбук'>",
     tags: 'tag-1, tag-2, tag-3, tag-4, tag-5',
-    remove:
-      "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='6'>Remove</button>",
+    // remove:
+    //   "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='6'>Remove</button>",
   },
   7: {
     id: 7,
@@ -184,8 +184,8 @@ const products = {
     picture:
       "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA' alt='Ноутбук'>",
     tags: 'tag-1, tag-2, tag-3, tag-4, tag-5',
-    remove:
-      "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='7'>Remove</button>",
+    // remove:
+    //   "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='7'>Remove</button>",
   },
   8: {
     id: 8,
@@ -195,8 +195,8 @@ const products = {
     picture:
       "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA' alt='Ноутбук'>",
     tags: 'tag-1, tag-2, tag-3, tag-4, tag-5',
-    remove:
-      "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='8'>Remove</button>",
+    // remove:
+    //   "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='8'>Remove</button>",
   },
   9: {
     id: 9,
@@ -206,8 +206,8 @@ const products = {
     picture:
       "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA' alt='Ноутбук'>",
     tags: 'tag-1, tag-2, tag-3, tag-4, tag-5',
-    remove:
-      "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='9'>Remove</button>",
+    // remove:
+    //   "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='9'>Remove</button>",
   },
   10: {
     id: 10,
@@ -217,8 +217,8 @@ const products = {
     picture:
       "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA' alt='Ноутбук'>",
     tags: 'tag-1, tag-2, tag-3, tag-4, tag-5',
-    remove:
-      "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='10'>Remove</button>",
+    // remove:
+    //   "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='10'>Remove</button>",
   },
   11: {
     id: 11,
@@ -228,8 +228,8 @@ const products = {
     picture:
       "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA' alt='Ноутбук'>",
     tags: 'tag-1, tag-2, tag-3, tag-4, tag-5',
-    remove:
-      "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='11'>Remove</button>",
+    // remove:
+    //   "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='11'>Remove</button>",
   },
   12: {
     id: 12,
@@ -239,8 +239,8 @@ const products = {
     picture:
       "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA' alt='Ноутбук'>",
     tags: 'tag-1, tag-2, tag-3, tag-4, tag-5',
-    remove:
-      "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='12'>Remove</button>",
+    // remove:
+    //   "<button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='12'>Remove</button>",
   },
 };
 
@@ -249,18 +249,20 @@ localStorage.setItem('users', JSON.stringify(users));
 function addUsers(table) {
   const tableUsers = document.getElementById(table);
   let addRow;
-  const users = JSON.parse(localStorage.getItem('users'));
+  const usersList = JSON.parse(localStorage.getItem('users'));
   if (tableUsers) {
-    for (const key in users) {
+    for (const key in usersList) {
       addRow = tableUsers.insertRow();
       addRow.insertAdjacentHTML(
         'afterbegin',
-        `<th>${users[key].id}</th>`
-          + `<td>${users[key].firstName}</td>`
-          + `<td>${users[key].lastName}</td>`
-          + `<td>${users[key].email}</td>`
-          + `<td>${users[key].removeRequest}</td>`
-          + `<td>${users[key].removeUser}</td>`,
+        `<th>${usersList[key].id}</th>`
+          + `<td>${usersList[key].firstName}</td>`
+          + `<td>${usersList[key].lastName}</td>`
+          + `<td>${usersList[key].email}</td>`
+          + `<td>${usersList[key].removeRequest}</td>`
+          + `<td><button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='${
+            usersList[key].id
+          }'>Remove</button></td>`,
       );
     }
   }
@@ -272,12 +274,12 @@ function removeUser(e) {
   if (e.target.classList.contains('btn-remove')) {
     const tr = e.target.parentElement.parentElement;
     const dataId = e.target.getAttribute('data-id');
-    let users = localStorage.getItem('users');
-    users = JSON.parse(users);
-    for (const key in users) {
-      if (users[key].id == dataId) {
-        delete users[key];
-        localStorage.setItem('users', JSON.stringify(users));
+    let usersList = localStorage.getItem('users');
+    usersList = JSON.parse(usersList);
+    for (const key in usersList) {
+      if (usersList[key].id == dataId) {
+        delete usersList[key];
+        localStorage.setItem('users', JSON.stringify(usersList));
       }
     }
     tr.remove();
@@ -303,19 +305,21 @@ localStorage.setItem('products', JSON.stringify(products));
 function addProducts(table) {
   const tableProducts = document.getElementById(table);
   let addRow;
-  const products = JSON.parse(localStorage.getItem('products'));
+  const productsList = JSON.parse(localStorage.getItem('products'));
   if (tableProducts) {
-    for (const key in products) {
+    for (const key in productsList) {
       addRow = tableProducts.insertRow();
       addRow.insertAdjacentHTML(
         'afterbegin',
-        `<th>${products[key].id}</th>`
-          + `<td>${products[key].title}</td>`
-          + `<td>${products[key].description}</td>`
-          + `<td>${products[key].price}</td>`
-          + `<td>${products[key].picture}</td>`
-          + `<td>${products[key].tags}</td>`
-          + `<td>${products[key].remove}</td>`,
+        `<th>${productsList[key].id}</th>`
+          + `<td>${productsList[key].title}</td>`
+          + `<td>${productsList[key].description}</td>`
+          + `<td>${productsList[key].price}</td>`
+          + `<td>${productsList[key].picture}</td>`
+          + `<td>${productsList[key].tags}</td>`
+          + `<td><button type='button' class='btn btn-secondary btn-lg btn-remove' data-id='${
+            productsList[key].id
+          }'>Remove</button></td>`,
       );
     }
   }

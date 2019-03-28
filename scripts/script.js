@@ -1,6 +1,6 @@
 $(() => {
   /* ====== ПОДГРУЗКА ТОВАРОВ ЧЕРЕЗ AJAX ============ */
-  $('.load-more').on('click', function () {
+  $('.load-more').click(function () {
     const btn = $(this);
     const loader = btn.find('span');
     $.ajax({
@@ -25,3 +25,6 @@ $(() => {
     });
   });
 });
+
+/* ====== CЛАЙДЕР ============ */
+// $('.carousel').carousel();

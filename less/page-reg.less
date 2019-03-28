@@ -1,49 +1,69 @@
-.form-style-10 {
-	max-width:450px;
-	padding:30px;
-	margin:40px auto;
-	background: #FFF;
-	border-radius: 10px;
-	-webkit-border-radius:10px;
-	-moz-border-radius: 10px;
-	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
-	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
-    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
-    
+main {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background: radial-gradient(black 3px, transparent 4px),
+    radial-gradient(black 3px, transparent 4px),
+    linear-gradient(#fff 4px, transparent 0),
+    linear-gradient(
+      45deg,
+      transparent 74px,
+      transparent 75px,
+      #a4a4a4 75px,
+      #a4a4a4 76px,
+      transparent 77px,
+      transparent 109px
+    ),
+    linear-gradient(
+      -45deg,
+      transparent 75px,
+      transparent 76px,
+      #a4a4a4 76px,
+      #a4a4a4 77px,
+      transparent 78px,
+      transparent 109px
+    ),
+    #fff;
+  background-size: 109px 109px, 109px 109px, 100% 6px, 109px 109px, 109px 109px;
+  background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+
+  .form-reg {
+    max-width: 450px;
+    padding: 30px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+
     .inner-wrap {
-        padding: 30px;
-        background: #F8F8F8;
-        border-radius: 6px;
-        margin-bottom: 15px;
+      padding: 30px;
+      background: #f8f8f8;
+      border-radius: 6px;
+      margin-bottom: 15px;
     }
 
     h1 {
-        background: #88cbbe;
-        padding: 20px 30px 15px 30px;
-        margin: -30px -30px 30px -30px;
-        border-radius: 10px 10px 0 0;
-        -webkit-border-radius: 10px 10px 0 0;
-        -moz-border-radius: 10px 10px 0 0;
-        color: #fff;
-        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
-        font: normal 30px 'Bitter', serif;
-        -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
-        -webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
-        box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
-        border: 1px solid #88cbbe;
-    }
+      background: #88cbbe;
+      padding: 20px 30px 15px 30px;
+      margin: -30px -30px 30px -30px;
+      border-radius: 10px 10px 0 0;
+      color: #fff;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+      font: normal 30px "Bitter", serif;
+      box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+      border: 1px solid #88cbbe;
 
-    h1 > span {
+      & > span {
         display: block;
         margin-top: 2px;
         font: 13px Arial, Helvetica, sans-serif;
+      }
     }
 
     label {
-        display: block;
-        font: 13px Arial, Helvetica, sans-serif;
-        color: #888;
-        margin-bottom: 15px;
+      display: block;
+      font: 13px Arial, Helvetica, sans-serif;
+      color: #888;
+      margin-bottom: 15px;
     }
 
     input[type="text"],
@@ -54,82 +74,67 @@
     input[type="search"],
     input[type="time"],
     input[type="url"],
-    input[type="password"],   
+    input[type="password"],
     select {
-	display: block;
-	box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	width: 100%;
-	padding: 8px;
-	border-radius: 6px;
-	-webkit-border-radius:6px;
-	-moz-border-radius:6px;
-	border: 2px solid #fff;
-	box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
-	-moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
-    -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
-    outline: 0;
+      display: block;
+      box-sizing: border-box;
+      width: 100%;
+      padding: 8px;
+      border-radius: 6px;
+      border: 2px solid #fff;
+      box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+      outline: 0;
     }
 
-    .section {
-        font: normal 20px 'Bitter', serif;
-        color: #88cbbe;
-        margin-bottom: 5px;
-    }
+    .form-section {
+      font: normal 20px "Bitter", serif;
+      color: #88cbbe;
+      margin-bottom: 5px;
 
-    .section span {
+      & span {
         background: #88cbbe;
         padding: 5px 10px 5px 10px;
         position: absolute;
         border-radius: 50%;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
         border: 4px solid #fff;
         font-size: 14px;
         margin-left: -45px;
         color: #fff;
         margin-top: -3px;
+      }
     }
 
-    input[type="button"], 
+    input[type="button"],
     input[type="submit"] {
-        background: #88cbbe;
-        padding: 8px 20px 8px 20px;
-        border-radius: 5px;
-        -webkit-border-radius: 5px;
-        -moz-border-radius: 5px;
-        color: #fff;
-        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
-        font: normal 30px 'Bitter', serif;
-        -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
-        -webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
-        box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
-        border: 1px solid #88cbbe;
-        font-size: 15px;
-        outline: 0;
-    }
+      background: #88cbbe;
+      padding: 8px 20px 8px 20px;
+      border-radius: 5px;
+      color: #fff;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+      font: normal 30px "Bitter", serif;
+      box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+      border: 1px solid #88cbbe;
+      font-size: 15px;
+      outline: 0;
 
-    input[type="button"]:hover, 
-    input[type="submit"]:hover {
-        background: #88cbbe;
-        -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
-        -webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
+      &:hover,
+      &:hover {
+        background: darken(#88cbbe, 10%);
         box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
+      }
     }
 
     .privacy-policy {
-        float: right;
-        width: 250px;
-        font: 12px Arial, Helvetica, sans-serif;
-        color: #4D4D4D;
-        margin-top: 10px;
-        text-align: right;
+      float: right;
+      width: 250px;
+      font: 12px Arial, Helvetica, sans-serif;
+      color: #4d4d4d;
+      margin-top: 10px;
+      text-align: right;
     }
+  }
 }
 
-
-
-
-
-
+@import "/basic-style.less";
+@import "/header.less";
+@import "/footer.less";
