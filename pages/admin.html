@@ -7,14 +7,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <link rel="icon" href="/favicon.ico" />
-    <!-- Useful meta tags -->
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <meta name="robots" content="index, follow, noodp" />
-    <meta name="googlebot" content="index, follow" />
-    <meta name="google" content="notranslate" />
-    <meta name="format-detection" content="telephone=no" />
+    <!-- <link rel="icon" href="/favicon.ico" /> -->
     <title>Starter Template</title>
     <!-- Bootstrap !!grid CSS -->
     <link
@@ -29,7 +22,11 @@
     <!-- <link href="../style/style.css" rel="stylesheet" /> -->
     <link href="../style/admin.css" rel="stylesheet" />
     <!-- Иконочные шрифты-->
-    <link href="../style/font-awesome.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- <link href="../style/font-awesome.min.css" rel="stylesheet" /> -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script
@@ -68,11 +65,11 @@
               <a href="tel:+88000006900"><span>+8(800)</span>0006900</a>
             </div>
             <div class="header-top-user">
-              <a href="/pages/page-authoriz.html" class="header-user__log">
+              <a href="/pages/page-authoriz.html">
                 <i class="fa fa-home" aria-hidden="true"></i>
                 <span>Войти</span>
               </a>
-              <a href="/pages/page-reg.html" class="header-user__reg">
+              <a href="/pages/page-reg.html">
                 <i class="fa fa-user" aria-hidden="true"></i>
                 <span>Регистрация</span>
               </a>
@@ -177,29 +174,7 @@
                       <th scope="col">Remove user</th>
                     </tr>
                   </thead>
-                  <tbody id="addUser">
-                    <!-- <tr>
-                      <th scope="row">1</th>
-                      <td>Mark</td>
-                      <td>Otto</td>
-                      <td>@mdo</td>
-                      <td><button type="button" class="btn btn-secondary btn-lg">Large button</button></td>
-                    </tr>
-                    <tr>
-                      <th scope="row">2</th>
-                      <td>Jacob</td>
-                      <td>Thornton</td>
-                      <td>@fat</td>
-                      <td><button type="button" class="btn btn-secondary btn-lg">Large button</button></td>
-                    </tr>
-                    <tr>
-                      <th scope="row">3</th>
-                      <td>Larry</td>
-                      <td>the Bird</td>
-                      <td>@twitter</td>
-                      <td><button type="button" class="btn btn-secondary btn-lg">Large button</button></td>
-                    </tr> -->
-                  </tbody>
+                  <tbody id="addUser"></tbody>
                 </table>
               </div>
               <div
@@ -241,8 +216,8 @@
       <div class="container wrapper">
         <div class="row">
           <div class="col-md-5">
-            <span class="footer-copyright">&copy; 2019 Laptop Trading</span>
-            <p class="footer-text">
+            <span class="footer__copyright">&copy; 2019 Laptop Trading</span>
+            <p class="footer__text">
               Ретроконверсия национального наследия детерминирует эксклюзивный
               рекламный бриф. Наряду с этим, анализ рыночных цен определяет
               conversion rate. Узнаваемость марки стремительно искажает
@@ -254,10 +229,10 @@
               Представляется логичным.
             </p>
           </div>
-          <div class="col-md-3 offset-md-1">
-            <h3 class="footer-clients">Информация для клиентов</h3>
-            <ul class="footer-clients-nav">
-              <li><a href="#">Главная страница</a></li>
+          <div class="col-md-3 offset-md-1 footer-menu">
+            <h3 class="footer-menu__title">Информация для клиентов</h3>
+            <ul class="footer-nav">
+              <li><a href="/pages/index.html">Главная страница</a></li>
               <li><a href="#">Блог</a></li>
               <li><a href="#">О компании</a></li>
               <li><a href="#">Новости</a></li>
@@ -265,9 +240,9 @@
               <li><a href="#">Форум</a></li>
             </ul>
           </div>
-          <div class="col-md-3">
-            <h3 class="footer-news">Новости компании</h3>
-            <ul class="footer-news-nav">
+          <div class="col-md-3 footer-menu">
+            <h3 class="footer-menu__title">Новости компании</h3>
+            <ul class="footer-nav">
               <li><a href="#">Новости</a></li>
               <li><a href="#">Вакансии</a></li>
               <li><a href="#">Контакты</a></li>

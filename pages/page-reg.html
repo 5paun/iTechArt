@@ -7,14 +7,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <link rel="icon" href="/favicon.ico" />
-    <!-- Useful meta tags -->
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <meta name="robots" content="index, follow, noodp" />
-    <meta name="googlebot" content="index, follow" />
-    <meta name="google" content="notranslate" />
-    <meta name="format-detection" content="telephone=no" />
+    <!-- <link rel="icon" href="/favicon.ico" /> -->
     <title>Starter Template</title>
     <!-- Bootstrap !!grid CSS -->
     <link
@@ -29,7 +22,8 @@
     <!-- <link href="../style/style.css" rel="stylesheet" /> -->
     <link href="../style/page-reg.css" rel="stylesheet" />
     <!-- Иконочные шрифты-->
-    <link href="../style/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link href="../style/font-awesome.min.css" rel="stylesheet" /> -->
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
       rel="stylesheet"
@@ -56,166 +50,147 @@
 
   <body>
     <header class="header">
-      <div class="container header-top wrapper">
-        <div class="row">
-          <div class="col-md-3">
-            <ul class="header-top-soc">
-              <li><a href="#" class="fa fa-vk"></a></li>
-              <li><a href="#" class="fa fa-facebook"></a></li>
-              <li><a href="#" class="fa fa-odnoklassniki"></a></li>
-              <li><a href="#" class="fa fa-instagram"></a></li>
-              <li><a href="#" class="fa fa-youtube-play"></a></li>
-            </ul>
-          </div>
-          <div class="col-md-4 offset-md-5 header-top-contact">
-            <div class="header-top-phone">
-              <i class="fa fa-phone" aria-hidden="true"></i>
-              <a href="tel:+88000006900"><span>+8(800)</span>0006900</a>
-            </div>
-            <div class="header-top-user">
-              <a href="/pages/page-authoriz.html" class="header-user__log">
-                <i class="fa fa-home" aria-hidden="true"></i>
-                <span>Войти</span>
-              </a>
-              <a href="/pages/page-reg.html" class="header-user__reg">
-                <i class="fa fa-user" aria-hidden="true"></i>
-                <span>Регистрация</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="header-bottom">
-        <div class="container wrapper">
+        <div class="container header-top wrapper">
           <div class="row">
-            <div class="col-md-8 header-bottom-nav">
-              <div class="header-bottom-logo">
-                <a href="/pages/index.html">
-                  <img src="../assets/img/logo.svg" alt="logo" />
-                </a>
-              </div>
-              <ul class="header-bottom-menu visible-lg">
-                <li><a href="/pages/index.html">главная страница</a></li>
-                <li><a href="#">о компании</a></li>
-                <li><a href="#">бренд</a></li>
-                <li><a href="#">блок</a></li>
-                <li><a href="#">новости</a></li>
-                <li><a href="#">форум</a></li>
+            <div class="col-md-3">
+              <ul class="header-top-soc">
+                <li><a href="#" class="fa fa-vk"></a></li>
+                <li><a href="#" class="fa fa-facebook"></a></li>
+                <li><a href="#" class="fa fa-odnoklassniki"></a></li>
+                <li><a href="#" class="fa fa-instagram"></a></li>
+                <li><a href="#" class="fa fa-youtube-play"></a></li>
               </ul>
             </div>
-            <div class="col-md-4 header-bottom-form">
-              <form action="/" class="header-form input-group">
-                <input
-                  type="text"
-                  class="header-form__search form-control"
-                  placeholder="Поиск"
-                  aria-describedby="btnGroupAddon"
-                  aria-describedby="button-addon2"
-                />
-                <button
-                  class="header-form__submit button"
-                  type="button"
-                  id="button-addon2"
-                >
-                  <i class="fa fa-search" aria-hidden="true"></i>
-                </button>
-              </form>
-              <form action="/" class="header-form-buy ">
-                <button class="header-form-buy__submit button" type="button">
-                  <i class="fa fa-shopping-cart" aria-hidden="true"
-                    ><span>15 000p</span></i
-                  >
-                </button>
-              </form>
+            <div class="col-md-4 offset-md-5 header-top-contact">
+              <div class="header-top-phone">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <a href="tel:+88000006900"><span>+8(800)</span>0006900</a>
+              </div>
+              <div class="header-top-user">
+                <a href="/pages/page-authoriz.html">
+                  <i class="fa fa-home" aria-hidden="true"></i>
+                  <span>Войти</span>
+                </a>
+                <a href="/pages/page-reg.html">
+                  <i class="fa fa-user" aria-hidden="true"></i>
+                  <span>Регистрация</span>
+                </a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </header>
+        
+        <div class="header-bottom">
+          <div class="container wrapper">
+            <div class="row">
+              <div class="col-md-8 header-bottom-nav">
+                <div class="header-bottom-logo">
+                  <a href="/pages/index.html">
+                    <img src="../assets/img/logo.svg" alt="logo">
+                  </a>
+                </div>
+                <ul class="header-bottom-menu visible-lg">
+                  <li><a href="/pages/index.html">главная страница</a></li>
+                  <li><a href="#">о компании</a></li>
+                  <li><a href="#">бренд</a></li>
+                  <li><a href="#">блок</a></li>                
+                  <li><a href="#">новости</a></li>
+                  <li><a href="#">форум</a></li>                 
+                </ul>
+              </div>
+              <div class="col-md-4 header-bottom-form">                                   
+                <form action="/" class="header-form input-group">
+                  <input type="text" class="header-form__search form-control" placeholder="Поиск" aria-describedby="btnGroupAddon" aria-describedby="button-addon2">              
+                  <button class="header-form__submit button" type="button" id="button-addon2">
+                    <i class="fa fa-search" aria-hidden="true" ></i>
+                  </button>                                                                 
+                </form>
+                <form action="/" class="header-form-buy ">
+                  <button class="header-form-buy__submit button" type="button">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"><span>15 000p</span></i>
+                  </button>  
+                </form>                 
+              </div>
+            </div>
+          </div>       
+        </div>      
+      </header>
 
     <main>
-      <div class="form-reg">
+      <div class="reg">
         <h1>
           Sign Up Now!<span
             >Sign up and tell us what you think of the site!</span
           >
         </h1>
-        <form>
-          <section class="form-section">
-            <span>1</span>First Name &amp; Address
+        <form class="reg-form">
+          <section class="section-field">
+            <div class="form-title">
+              <span class="form-title__number">1</span>First Name &amp; Address
+            </div>
+            <div class="form-fields">
+              <label>Your Full Name <input type="text" name="field1"/></label>
+              <label>Your Username <input type="text" name="field2"/></label>
+            </div>
           </section>
-          <div class="inner-wrap">
-            <label>Your Full Name <input type="text" name="field1"/></label>
-            <label>Your Username <input type="text" name="field2"/></label>
-          </div>
-
-          <section class="form-section">
-            <span>2</span>Email &amp; Phone
+          <section class="section-field">
+            <div class="form-title"><span class="form-title__number">2</span>Email &amp; Phone</div>
+            <div class="form-fields">
+              <label>Email Address <input type="email" name="field3"/></label>
+              <label>Phone Number <input type="text" name="field4"/></label>
+            </div>
           </section>
-          <div class="inner-wrap">
-            <label>Email Address <input type="email" name="field3"/></label>
-            <label>Phone Number <input type="text" name="field4"/></label>
-          </div>
-
-          <section class="form-section"><span>3</span>Passwords</section>
-          <div class="inner-wrap">
-            <label>Password <input type="password" name="field5"/></label>
-            <label
-              >Confirm Password <input type="password" name="field6"
-            /></label>
-          </div>
-          <div class="button-section">
+          <section class="section-field">
+            <div class="form-title"><span class="form-title__number">3</span>Passwords</div>
+            <div class="form-fields">
+              <label>Password <input type="password" name="field5"/></label>
+              <label
+                >Confirm Password <input type="password" name="field6"
+              /></label>
+            </div>
+          </section>
+          <section class="section-button">
             <input type="submit" name="Sign Up" />
-            <span class="privacy-policy">
+            <span class="section-button__privacy">
               <input type="checkbox" name="field7" />You agree to our Terms and
               Policy.
-            </span>
-          </div>
+          </section>         
         </form>
       </div>
     </main>
 
     <footer class="footer">
-      <div class="container wrapper">
-        <div class="row">
-          <div class="col-md-5">
-            <span class="footer-copyright">&copy; 2019 Laptop Trading</span>
-            <p class="footer-text">
-              Ретроконверсия национального наследия детерминирует эксклюзивный
-              рекламный бриф. Наряду с этим, анализ рыночных цен определяет
-              conversion rate. Узнаваемость марки стремительно искажает
-              сублимированный conversion rate. Представляется логичным, что
-              нишевый проект искажает рейтинг.Ретроконверсия национального
-              наследия детерминирует эксклюзивный рекламный бриф. Наряду с этим,
-              анализ рыночных цен определяет conversion rate. Узнаваемость марки
-              стремительно искажает сублимированный conversion rate.
-              Представляется логичным.
-            </p>
-          </div>
-          <div class="col-md-3 offset-md-1">
-            <h3 class="footer-clients">Информация для клиентов</h3>
-            <ul class="footer-clients-nav">
-              <li><a href="#">Главная страница</a></li>
-              <li><a href="#">Блог</a></li>
-              <li><a href="#">О компании</a></li>
-              <li><a href="#">Новости</a></li>
-              <li><a href="#">Бренд</a></li>
-              <li><a href="#">Форум</a></li>
-            </ul>
-          </div>
-          <div class="col-md-3">
-            <h3 class="footer-news">Новости компании</h3>
-            <ul class="footer-news-nav">
-              <li><a href="#">Новости</a></li>
-              <li><a href="#">Вакансии</a></li>
-              <li><a href="#">Контакты</a></li>
-              <li><a href="#">Карта сайта</a></li>
-            </ul>
+        <div class="container wrapper">
+          <div class="row">
+            <div class="col-md-5">
+              <span class="footer__copyright">&copy; 2019  Laptop Trading</span>
+              <p class="footer__text">
+                Ретроконверсия национального наследия детерминирует эксклюзивный рекламный бриф. Наряду с этим, анализ рыночных цен определяет conversion rate. Узнаваемость марки стремительно искажает сублимированный conversion rate. Представляется логичным, что нишевый проект искажает рейтинг.Ретроконверсия национального наследия детерминирует эксклюзивный рекламный бриф. Наряду с этим, анализ рыночных цен определяет conversion rate. Узнаваемость марки стремительно искажает сублимированный conversion rate. Представляется логичным.
+              </p>
+            </div>
+            <div class="col-md-3 offset-md-1 footer-menu">
+              <h3 class="footer-menu__title">Информация для клиентов</h3>
+              <ul class="footer-nav">
+                <li><a href="/pages/index.html">Главная страница</a></li>
+                <li><a href="#">Блог</a></li>
+                <li><a href="#">О компании</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Бренд</a></li>
+                <li><a href="#">Форум</a></li>             
+              </ul>
+            </div>
+            <div class="col-md-3 footer-menu">
+              <h3 class="footer-menu__title">Новости компании</h3>
+              <ul class="footer-nav">
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Вакансии</a></li>
+                <li><a href="#">Контакты</a></li>
+                <li><a href="#">Карта сайта</a></li>             
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-    </footer>
+      </footer>
 
     <!-- Optional JavaScript -->
     <script src="../scripts/reg-page.js"></script>
