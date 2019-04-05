@@ -26,16 +26,13 @@ $(() => {
   });
 });
 
-// Bootstrap slider
-// $('.carousel').carousel();
-
 // Add and remove estimate of products by users
-function dravStars(element) {
+function dravStars(elements) {
   const storedItem = localStorage.getItem('arrRat');
   const arrRat = storedItem ? JSON.parse(storedItem) : {};
-  const starCount = arrRat[element.getAttribute('data-product-id')];
+  const starCount = arrRat[elements.getAttribute('data-product-id')];
 
-  element.querySelectorAll('div').forEach((element) => {
+  elements.querySelectorAll('div').forEach((element) => {
     const currentRate = element.getAttribute('data-rat-val');
     if (currentRate > 0 && currentRate <= starCount) {
       element.classList.add('star');

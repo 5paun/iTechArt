@@ -92,14 +92,14 @@
                   <img src="../assets/img/logo.svg" alt="logo" />
                 </a>
               </div>
-              <ul class="header-bottom-menu visible-lg">
-                <li><a href="/pages/index.html">главная страница</a></li>
-                <li><a href="#">о компании</a></li>
-                <li><a href="#">бренд</a></li>
-                <li><a href="#">блок</a></li>
-                <li><a href="#">новости</a></li>
-                <li><a href="#">форум</a></li>
-              </ul>
+              <nav class="header-bottom-menu visible-lg">
+                <a href="#">главная страница</a>
+                <a href="#">о компании</a>
+                <a href="#">бренд</a>
+                <a href="#">блок</a>
+                <a href="#">новости</a>
+                <a href="#">форум</a>
+              </nav>
             </div>
             <div class="col-md-4 header-bottom-form">
               <form action="/" class="header-form input-group">
@@ -140,12 +140,14 @@
         </h1>
         <form class="form-authoriz">
           <div class="authoriz-fields">
-            <label>Your Username <input type="text" name="field1"/></label>
-            <label>Password <input type="password" name="field2"/></label>
+            <label>Your Username <input type="text" name="name"/></label>
+            <label>Password <input type="password" name="password"/></label>
           </div>
           <div class="authoriz-button">
             <span class="authoriz-button__check">
-              <label><input type="checkbox" name="field3" />Remember me</label>
+              <label
+                ><input type="checkbox" name="remember" />Remember me</label
+              >
             </span>
             <a href="#" class="authoriz-button__forgot">Forgot Password?</a>
             <input type="submit" name="Sign In" />

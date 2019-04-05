@@ -200,10 +200,12 @@ const products = [
 localStorage.setItem('users', JSON.stringify(users));
 function addUsers(table) {
   const tableUsers = document.getElementById(table);
-  const users = JSON.parse(localStorage.getItem('users'));
+  const usersData = JSON.parse(localStorage.getItem('users'));
+
   if (tableUsers) {
-    users.map((user) => {
+    usersData.map((user) => {
       const addRow = tableUsers.insertRow();
+      addRow.classList.add('users-table__tr');
       return addRow.insertAdjacentHTML(
         'afterbegin',
         `<th>${user.id}</th>
@@ -223,13 +225,13 @@ addUsers('addUser');
 // Remove users from table and from localStorage
 function removeUser(e) {
   if (e.target.classList.contains('btn-remove')) {
-    const tr = e.target.parentElement.parentElement;
+    const tr = e.target.closest('.users-table__tr');
     const dataId = Number(e.target.getAttribute('data-id'));
-    let users = localStorage.getItem('users');
-    users = JSON.parse(users);
-    users = users.filter(user => user.id !== dataId);
+    const usersData = JSON.parse(localStorage.getItem('users'));
+    const usersFilter = usersData.filter(user => user.id !== dataId);
+
     tr.remove();
-    localStorage.setItem('users', JSON.stringify(users));
+    localStorage.setItem('users', JSON.stringify(usersFilter));
   }
 }
 
@@ -237,25 +239,16 @@ document.getElementById('addUser').addEventListener('click', (e) => {
   removeUser(e);
 });
 
-// Remove users from table and from localStorage by means jQuery
-// $('#addUser').on('click', "button[type='button']", function () {
-//   // let btnData = $(this).attr("data-id");
-//   $(this)
-//     .parent()
-//     .parent()
-//     .remove();
-//   localStorage.removeItem('users');
-// });
-
 // Add products in table from localStorage
 localStorage.setItem('products', JSON.stringify(products));
 function addProducts(table) {
   const tableProducts = document.getElementById(table);
-  let addRow;
-  const products = JSON.parse(localStorage.getItem('products'));
+  const productsData = JSON.parse(localStorage.getItem('products'));
+
   if (tableProducts) {
-    products.map((product) => {
-      addRow = tableProducts.insertRow();
+    productsData.map((product) => {
+      const addRow = tableProducts.insertRow();
+      addRow.classList.add('products-table__tr');
       return addRow.insertAdjacentHTML(
         'afterbegin',
         `<th>${product.id}</th>
@@ -276,26 +269,16 @@ addProducts('addProduct');
 // Remove products from table and from localStorage
 function removeProducts(e) {
   if (e.target.classList.contains('btn-remove')) {
-    const tr = e.target.parentElement.parentElement;
+    const tr = e.target.closest('.products-table__tr');
     const dataId = Number(e.target.getAttribute('data-id'));
-    let products = localStorage.getItem('products');
-    products = JSON.parse(products);
-    products = products.filter(product => product.id !== dataId);
+    const productsData = JSON.parse(localStorage.getItem('products'));
+    const productsFilter = productsData.filter(product => product.id !== dataId);
+
     tr.remove();
-    localStorage.setItem('products', JSON.stringify(products));
+    localStorage.setItem('products', JSON.stringify(productsFilter));
   }
 }
 
 document.getElementById('addProduct').addEventListener('click', (e) => {
   removeProducts(e);
 });
-
-// Remove products from table and from localStorage by means jQuery
-// $('#addProduct').on('click', "button[type='button']", function () {
-//   // let btnData = $(this).attr("data-id");
-//   $(this)
-//     .parent()
-//     .parent()
-//     .remove();
-//   localStorage.removeItem('products');
-// });
