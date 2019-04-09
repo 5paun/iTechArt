@@ -1,10 +1,9 @@
-// import React from 'react';
-// import ReactDOM from 'react-dom';
-// import './index.scss';
-// import App from './App';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-// ReactDOM.render(<App />, document.getElementById('root'));
+import NavMenu from './components/nav-menu';
+import '/index.css';
 
-// // If you want your app to work offline and load faster, you can change
-// // unregister() to register() below. Note this comes with some pitfalls.
-// // Learn more about service workers: https://bit.ly/CRA-PWA
+const el = <h1>Hello World</h1>;
+
+ReactDOM.render(el, document.getElementById('root'));
