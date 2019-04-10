@@ -205,6 +205,7 @@ function addUsers(table) {
   if (tableUsers) {
     usersData.map((user) => {
       const addRow = tableUsers.insertRow();
+
       addRow.classList.add('users-table__tr');
       return addRow.insertAdjacentHTML(
         'afterbegin',
@@ -248,6 +249,7 @@ function addProducts(table) {
   if (tableProducts) {
     productsData.map((product) => {
       const addRow = tableProducts.insertRow();
+
       addRow.classList.add('products-table__tr');
       return addRow.insertAdjacentHTML(
         'afterbegin',
