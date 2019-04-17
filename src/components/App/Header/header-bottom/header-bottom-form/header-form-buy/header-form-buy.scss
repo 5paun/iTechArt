@@ -1,0 +1,14 @@
+.header-form-buy {
+  display: inline-block;
+  float: right;
+  width: 13rem;
+  margin-top: 1.5rem;
+
+  &__submit {
+    width: 100%;
+
+    span {
+      margin-left: 1.5rem;
+    }
+  }
+}

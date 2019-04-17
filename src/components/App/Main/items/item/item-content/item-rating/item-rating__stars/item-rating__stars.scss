@@ -1,0 +1,36 @@
+.item-rating {
+  &__stars {
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
+    display: inline-block;
+    transition: all 1s ease;
+    border: 0;
+    cursor: pointer;
+  }
+
+  &__stars:not(.zero):not(.star) {
+    color: gray;
+  }
+
+  &__stars:not(.zero):not(.star):hover {
+    color: green;
+  }
+
+  &__stars:first-child {
+    margin-right: 0.7rem;
+  }
+
+  .zero {
+    color: black;
+  }
+
+  .zero:hover {
+    color: red;
+  }
+
+  .star {
+    color: gold;
+    transform: rotateY(360deg);
+  }
+}

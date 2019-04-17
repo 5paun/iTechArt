@@ -1,0 +1,15 @@
+.items {
+  &-after {
+    text-align: center;
+
+    &__load {
+      padding: 1rem 2.6rem;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+    .btn__loader {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+header {
+  li {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    background-color: #eee;
+    font-size: 1.6rem;
+    text-align: center;
+
+    &:hover {
+      background-color: #bbfcd9;
+    }
+
+    a {
+      color: #747474;
+    }
+  }
+}

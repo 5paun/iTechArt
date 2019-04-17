@@ -1,0 +1,16 @@
+.footer-menu {
+  &__title {
+    font-weight: bold;
+  }
+
+  .footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    li {
+      width: 45%;
+      margin-top: 1.5rem;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+footer {
+  a {
+    font-weight: bold;
+    color: inherit;
+    font-size: 1.4rem;
+
+    &:hover {
+      color: #fe5f71;
+      text-decoration: none;
+    }
+  }
+}

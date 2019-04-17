@@ -1,0 +1,18 @@
+.header-top-phone {
+  vertical-align: top;
+
+  a {
+    font-size: 1.8rem;
+    color: #000;
+    line-height: 4.8rem;
+
+    &:hover {
+      text-decoration: none;
+      color: #000;
+    }
+  }
+
+  span {
+    color: #a4a4a4;
+  }
+}
