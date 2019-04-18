@@ -4,12 +4,12 @@ import HeaderBottomMenuItem from './header-bottom-menu-item/header-bottom-menu-i
 
 const HeaderBottomMenu = () => (
   <nav className="header-bottom-menu visible-lg">
-    <HeaderBottomMenuItem text="главная страница" />
-    <HeaderBottomMenuItem text="о компании" />
-    <HeaderBottomMenuItem text="бренд" />
-    <HeaderBottomMenuItem text="блок" />
-    <HeaderBottomMenuItem text="новости" />
-    <HeaderBottomMenuItem text="форум" />
+    <HeaderBottomMenuItem text="главная страница" path="/main" />
+    <HeaderBottomMenuItem text="о компании" path="/company" />
+    <HeaderBottomMenuItem text="бренд" path="/brand" />
+    <HeaderBottomMenuItem text="блок" path="/block" />
+    <HeaderBottomMenuItem text="новости" path="/news" />
+    <HeaderBottomMenuItem text="форум" path="/forum" />
   </nav>
 );
 

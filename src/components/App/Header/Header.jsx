@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.scss';
+import './header.scss';
 import HeaderTop from './header-top/header-top';
 import HeaderBottom from './header-bottom/header-bottom';
 

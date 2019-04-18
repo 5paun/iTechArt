@@ -7,5 +7,9 @@
   &:hover {
     text-decoration: none;
     background-color: #88cbbe;
+    color: #747474;
+  }
+  &.active {
+    // background-color: #88cbbe;
   }
 }

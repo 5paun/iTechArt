@@ -3,7 +3,7 @@ import './header-top-soc-link.scss';
 
 const HeaderTopSocLink = props => (
   <li>
-    <a className="fa fa-vk" />
+    <a className={props.icon} />
   </li>
 );
 

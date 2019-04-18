@@ -1,13 +1,16 @@
 import React from 'react';
 import './tab-content.scss';
 import TheadDark from './thead-dark/thead-dark';
+import AddUser from './add-user/add-user';
+import AddProduct from './add-product/add-product';
 
 const TabContent = () => (
   <div className="tab-content" id="my-tab-content">
     <div className="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
       <table className="table users-table">
         <TheadDark />
-        <tbody id="add-user" />
+        {/* <tbody id="add-user" /> */}
+        <AddUser />
       </table>
     </div>
     <div className="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
@@ -21,7 +24,8 @@ const TabContent = () => (
       </button>
       <table className="table products-table">
         <TheadDark />
-        <tbody id="add-product" />
+        <AddProduct />
+        {/* <tbody id="add-product" /> */}
       </table>
     </div>
   </div>

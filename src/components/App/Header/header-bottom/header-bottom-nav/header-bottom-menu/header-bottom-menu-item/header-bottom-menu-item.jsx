@@ -1,10 +1,11 @@
 import React from 'react';
 import './header-bottom-menu-item.scss';
+import { NavLink } from 'react-router-dom';
 
 const HeaderBottomMenuItem = props => (
-  <a className="header-bottom-menu__item" href="#">
+  <NavLink className="header-bottom-menu__item" to={props.path}>
     {props.text}
-  </a>
+  </NavLink>
 );
 
 export default HeaderBottomMenuItem;

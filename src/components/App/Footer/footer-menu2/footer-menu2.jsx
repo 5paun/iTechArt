@@ -7,16 +7,16 @@ const FooterMenu2 = () => (
     <h3 className="footer-menu__title">Новости компании</h3>
     <ul className="footer-nav">
       <li>
-        <FooterMenuItem text="Новости" />
+        <FooterMenuItem text="Новости" link="/news" />
       </li>
       <li>
-        <FooterMenuItem text="Вакансии" />
+        <FooterMenuItem text="Вакансии" link="/vacancies" />
       </li>
       <li>
-        <FooterMenuItem text="Контакты" />
+        <FooterMenuItem text="Контакты" link="/contacts" />
       </li>
       <li>
-        <FooterMenuItem text="Карта сайта" />
+        <FooterMenuItem text="Карта сайта" link="/map" />
       </li>
     </ul>
   </div>

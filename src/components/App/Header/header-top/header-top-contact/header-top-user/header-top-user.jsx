@@ -1,16 +1,11 @@
 import React from 'react';
 import './header-top-user.scss';
+import UserEnter from './user-enter/user-enter';
 
 const HeaderTopUser = () => (
   <div className="header-top-user">
-    <a href="/pages/page-authoriz.html">
-      <i className="fa fa-home" aria-hidden="true" />
-      <span>Войти</span>
-    </a>
-    <a href="/pages/page-reg.html">
-      <i className="fa fa-user" aria-hidden="true" />
-      <span>Регистрация</span>
-    </a>
+    <UserEnter link="/authoriz" icon="fa fa-home" text="Войти" />
+    <UserEnter link="/reg" icon="fa fa-user" text="Регистрация" />
   </div>
 );
 

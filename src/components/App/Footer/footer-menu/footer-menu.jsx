@@ -7,22 +7,22 @@ const FooterMenu = () => (
     <h3 className="footer-menu__title">Информация для клиентов</h3>
     <ul className="footer-nav">
       <li>
-        <FooterMenuItem text="Главная страница" />
+        <FooterMenuItem text="Главная страница" link="/main" />
       </li>
       <li>
-        <FooterMenuItem text="Блог" />
+        <FooterMenuItem text="Блог" link="/blog" />
       </li>
       <li>
-        <FooterMenuItem text="О компании" />
+        <FooterMenuItem text="О компании" link="/company" />
       </li>
       <li>
-        <FooterMenuItem text="Новости" />
+        <FooterMenuItem text="Новости" link="/news" />
       </li>
       <li>
-        <FooterMenuItem text="Бренд" />
+        <FooterMenuItem text="Бренд" link="/brand" />
       </li>
       <li>
-        <FooterMenuItem text="Форум" />
+        <FooterMenuItem text="Форум" link="/forum" />
       </li>
     </ul>
   </div>
