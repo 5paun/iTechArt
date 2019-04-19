@@ -1,8 +1,8 @@
 import React from 'react';
-import './thead-dark.scss';
+import './thead-dark-users.scss';
 import TheadDarkTh from './thead-dark__th/thead-dark__th';
 
-const TheadDark = () => (
+const TheadDarkUsers = () => (
   <thead className="thead-dark">
     <tr>
       <TheadDarkTh title="#" />
@@ -15,4 +15,4 @@ const TheadDark = () => (
   </thead>
 );
 
-export default TheadDark;
+export default TheadDarkUsers;

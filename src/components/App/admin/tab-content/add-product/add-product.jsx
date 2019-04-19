@@ -2,17 +2,19 @@ import React from 'react';
 import './add-product.scss';
 import AddProductTd from './add-product__td/add-product__td';
 
-const AddProduct = () => (
-  <tbody id="add-user">
-    <tr>
-      <AddProductTd title="#" />
-      <AddProductTd title="First Name" />
-      <AddProductTd title="Last Name" />
-      <AddProductTd title="Email" />
-      <AddProductTd title="Remove request" />
-      <AddProductTd title="Remove user" />
-    </tr>
-  </tbody>
-);
+const AddProduct = (props) => {
+  const productsData = props.products.map(product => (
+    <AddProductTd
+      id={product.id}
+      title={product.title}
+      description={product.description}
+      price={product.price}
+      picture={product.picture}
+      tags={product.tags}
+    />
+  ));
+
+  return <tbody id="add-product">{productsData}</tbody>;
+};
 
 export default AddProduct;

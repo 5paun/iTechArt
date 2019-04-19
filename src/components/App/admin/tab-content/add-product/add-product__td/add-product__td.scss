@@ -9,3 +9,12 @@
     height: 5rem;
   }
 }
+
+.items {
+  &-after__load {
+    padding: 0.6rem 1.1rem;
+    text-transform: lowercase;
+    font-size: 1.2rem;
+    vertical-align: middle;
+  }
+}

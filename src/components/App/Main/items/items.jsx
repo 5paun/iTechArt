@@ -13,7 +13,7 @@ const Items = () => (
     <Item />
     <Item />
     <Item />
-    <ItemsAfter />
+    <ItemsAfter value="load more" />
   </div>
 );
 
