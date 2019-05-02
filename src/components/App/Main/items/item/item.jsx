@@ -1,5 +1,5 @@
 import React from 'react';
-import './Item.scss';
+import './item.scss';
 import ItemImg from './ItemImg/ItemImg';
 import ItemContent from './ItemContent/ItemContent';
 

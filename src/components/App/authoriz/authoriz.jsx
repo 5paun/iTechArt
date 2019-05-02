@@ -1,5 +1,5 @@
 import React from 'react';
-import './Authoriz.scss';
+import './authoriz.scss';
 import AuthorizTitle from './AuthorizTitle/AuthorizTitle';
 import FormAuthoriz from './FormAuthoriz/FormAuthoriz';
 

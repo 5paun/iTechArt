@@ -1,6 +1,6 @@
 import React from 'react';
 import './AddProductTd.scss';
-import ItemsAfter from '../../../../Main/Items/ItemsAfter/ItemsAfter';
+import ItemsAfter from '../../../../Main/items/ItemsAfter/ItemsAfter';
 
 const AddProductTd = props => (
   <tr>

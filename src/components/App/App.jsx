@@ -4,12 +4,13 @@ import { Route } from 'react-router-dom';
 import Header from './Header/Header';
 import Main from './Main/Main';
 import Footer from './Footer/Footer';
-import Authoriz from './Authoriz/Authoriz';
-import Reg from './Reg/Reg';
-import Admin from './Admin/Admin';
+import Authoriz from './authoriz/authoriz';
+import Reg from './reg/reg';
+import Admin from './admin/admin';
+import Items from '../../Items';
 
 const App = props => (
-  <div className="app-wrapper">
+  <React.Fragment>
     <Header />
     <Route path="/main" render={() => <Main />} />
     <Route path="/authoriz" render={() => <Authoriz />} />
@@ -24,7 +25,8 @@ const App = props => (
       )}
     />
     <Footer />
-  </div>
+    <Items />
+  </React.Fragment>
 );
 
 export default App;

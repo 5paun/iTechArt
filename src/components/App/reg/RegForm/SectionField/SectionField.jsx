@@ -1,7 +1,7 @@
 import React from 'react';
 import './SectionField.scss';
 import SectionTitle from './SectionTitle/SectionTitle';
-import AuthorizFields from '../../../Authoriz/FormAuthoriz/AuthorizFields/AuthorizFields';
+import AuthorizFields from '../../../authoriz/FormAuthoriz/AuthorizFields/AuthorizFields';
 
 const SectionField = () => (
   <section className="section-field">

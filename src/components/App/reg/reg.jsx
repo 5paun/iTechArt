@@ -1,6 +1,6 @@
 import React from 'react';
 // import './Reg.scss';
-import AuthorizTitle from '../Authoriz/AuthorizTitle/AuthorizTitle';
+import AuthorizTitle from '../authoriz/AuthorizTitle/AuthorizTitle';
 import RegForm from './RegForm/RegForm';
 
 const Reg = () => (

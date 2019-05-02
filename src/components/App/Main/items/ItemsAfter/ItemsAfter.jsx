@@ -7,7 +7,7 @@ const ItemsAfter = props => (
       type="button"
       className="btn btn-secondary items-after__load"
       onClick={() => {
-        alert('fdfdf');
+        alert('ff');
       }}
     >
       <span

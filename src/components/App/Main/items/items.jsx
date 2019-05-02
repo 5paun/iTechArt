@@ -1,6 +1,6 @@
 import React from 'react';
-import './Items.scss';
-import Item from './Item/Item';
+import './items.scss';
+import Item from './item/item';
 import ItemsAfter from './ItemsAfter/ItemsAfter';
 
 const Items = () => (

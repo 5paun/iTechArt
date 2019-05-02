@@ -1,5 +1,5 @@
 import React from 'react';
-import './Admin.scss';
+import './admin.scss';
 import NavTabs from './NavTabs/NavTabs';
 import TabContent from './TabContent/TabContent';
 import PopupAddProduct from './PopupAddProduct/PopupAddProduct';
