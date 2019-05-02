@@ -95,7 +95,7 @@ const state = {
         description: "It's very good thing!-1",
         price: '450$',
         picture:
-          "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA' alt='laptop'>",
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA',
         tags: 'tag-1, tag-2, tag-3, tag-4, tag-5',
       },
       {
@@ -104,7 +104,7 @@ const state = {
         description: "It's very good thing!-2",
         price: '450$',
         picture:
-          "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA' alt='laptop'>",
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA',
         tags: 'tag-1, tag-2, tag-3, tag-4, tag-5',
       },
       {
@@ -113,7 +113,7 @@ const state = {
         description: "It's very good thing!-3",
         price: '450$',
         picture:
-          "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA' alt='laptop'>",
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA',
         tags: 'tag-1, tag-2, tag-3, tag-4, tag-5',
       },
       {
@@ -122,7 +122,7 @@ const state = {
         description: "It's very good thing!-4",
         price: '450$',
         picture:
-          "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA' alt='laptop'>",
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA',
         tags: 'tag-1, tag-2, tag-3, tag-4, tag-5',
       },
       {
@@ -131,7 +131,7 @@ const state = {
         description: "It's very good thing!-5",
         price: '450$',
         picture:
-          "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA' alt='laptop'>",
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA',
         tags: 'tag-1, tag-2, tag-3, tag-4, tag-5',
       },
       {
@@ -140,7 +140,7 @@ const state = {
         description: "It's very good thing!-6",
         price: '450$',
         picture:
-          "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA' alt='laptop'>",
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA',
         tags: 'tag-1, tag-2, tag-3, tag-4, tag-5',
       },
       {
@@ -149,7 +149,7 @@ const state = {
         description: "It's very good thing!-7",
         price: '450$',
         picture:
-          "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA' alt='laptop'>",
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA',
         tags: 'tag-1, tag-2, tag-3, tag-4, tag-5',
       },
       {
@@ -158,7 +158,7 @@ const state = {
         description: "It's very good thing!-8",
         price: '450$',
         picture:
-          "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA' alt='laptop'>",
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA',
         tags: 'tag-1, tag-2, tag-3, tag-4, tag-5',
       },
       {
@@ -167,7 +167,7 @@ const state = {
         description: "It's very good thing!-9",
         price: '450$',
         picture:
-          "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA' alt='laptop'>",
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA',
         tags: 'tag-1, tag-2, tag-3, tag-4, tag-5',
       },
       {
@@ -176,7 +176,7 @@ const state = {
         description: "It's very good thing!-10",
         price: '450$',
         picture:
-          "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA' alt='laptop'>",
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA',
         tags: 'tag-1, tag-2, tag-3, tag-4, tag-5',
       },
       {
@@ -185,7 +185,7 @@ const state = {
         description: "It's very good thing!-11",
         price: '450$',
         picture:
-          "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA' alt='laptop'>",
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA',
         tags: 'tag-1, tag-2, tag-3, tag-4, tag-5',
       },
       {
@@ -194,14 +194,14 @@ const state = {
         description: "It's very good thing!-12",
         price: '450$',
         picture:
-          "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA' alt='laptop'>",
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyeb-r_lrGwSN7UESC-DIz-JWXNbsOMkAW7IH8HSToF1WuzobuA',
         tags: 'tag-1, tag-2, tag-3, tag-4, tag-5',
       },
     ],
   },
 };
 
-export const addProduct = (title, description, price, picture, tags) => {
+export const addProductItem = (title, description, price, picture, tags) => {
   const newProduct = {
     id: 13,
     title,

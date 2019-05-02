@@ -1,5 +1,5 @@
 import React from 'react';
-import './news.scss';
+import './News.scss';
 
 const News = () => <div className="news">НОВОСТИ</div>;
 

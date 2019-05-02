@@ -1,9 +1,9 @@
 import React from 'react';
-import './main.scss';
-import Catalog from './catalog/catalog';
-import News from './news/news';
-import MainCarousel from './main-carousel/main-carousel';
-import Items from './items/items';
+import './Main.scss';
+import Catalog from './Catalog/Catalog';
+import News from './News/News';
+import MainCarousel from './MainCarousel/MainCarousel';
+import Items from './Items/Items';
 
 const Main = () => (
   <main>

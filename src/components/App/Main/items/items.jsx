@@ -1,7 +1,7 @@
 import React from 'react';
-import './items.scss';
-import Item from './item/item';
-import ItemsAfter from './items-after/items-after';
+import './Items.scss';
+import Item from './Item/Item';
+import ItemsAfter from './ItemsAfter/ItemsAfter';
 
 const Items = () => (
   <div className="items">

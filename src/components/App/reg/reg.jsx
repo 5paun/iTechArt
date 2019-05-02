@@ -1,12 +1,15 @@
 import React from 'react';
-// import './reg.scss';
-import AuthorizTitle from '../authoriz/authoriz__title/authoriz__title';
-import RegForm from './reg-form/reg-form';
+// import './Reg.scss';
+import AuthorizTitle from '../Authoriz/AuthorizTitle/AuthorizTitle';
+import RegForm from './RegForm/RegForm';
 
 const Reg = () => (
   <main>
     <div className="authoriz">
-      <AuthorizTitle title="Sign In Now!" text="Sign in and tell us what you think of the site!" />
+      <AuthorizTitle
+        title="Sign In Now!"
+        text="Sign in and tell us what you think of the site!"
+      />
       <RegForm />
     </div>
   </main>

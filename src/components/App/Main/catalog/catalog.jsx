@@ -1,5 +1,5 @@
 import React from 'react';
-import './catalog.scss';
+import './Catalog.scss';
 
 const Catalog = () => <div className="catalog">КАТАЛОГ</div>;
 

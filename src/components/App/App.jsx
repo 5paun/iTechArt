@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.scss';
 import { Route } from 'react-router-dom';
-import Header from './header/header';
-import Main from './main/main';
-import Footer from './footer/footer';
-import Authoriz from './authoriz/authoriz';
-import Reg from './reg/reg';
-import Admin from './admin/admin';
+import Header from './Header/Header';
+import Main from './Main/Main';
+import Footer from './Footer/Footer';
+import Authoriz from './Authoriz/Authoriz';
+import Reg from './Reg/Reg';
+import Admin from './Admin/Admin';
 
 const App = props => (
   <div className="app-wrapper">
@@ -16,7 +16,12 @@ const App = props => (
     <Route path="/reg" render={() => <Reg />} />
     <Route
       path="/admin"
-      render={() => <Admin state={props.state.adminPage} addProduct={props.addProduct} />}
+      render={() => (
+        <Admin
+          state={props.state.adminPage}
+          addProductItem={props.addProductItem}
+        />
+      )}
     />
     <Footer />
   </div>

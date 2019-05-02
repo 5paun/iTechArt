@@ -1,8 +1,8 @@
 import React from 'react';
-import './footer.scss';
-import FooterMenu from './footer-menu/footer-menu';
-import FooterLeft from './footer-left/footer-left';
-import FooterMenu2 from './footer-menu2/footer-menu2';
+import './Footer.scss';
+import FooterMenu from './FooterMenu/FooterMenu';
+import FooterLeft from './FooterLeft/FooterLeft';
+import FooterMenu2 from './FooterMenu2/FooterMenu2';
 
 const Footer = () => (
   <footer className="footer">

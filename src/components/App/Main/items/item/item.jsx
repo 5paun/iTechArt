@@ -1,7 +1,7 @@
 import React from 'react';
-import './item.scss';
-import ItemImg from './item__img/item__img';
-import ItemContent from './item-content/item-content';
+import './Item.scss';
+import ItemImg from './ItemImg/ItemImg';
+import ItemContent from './ItemContent/ItemContent';
 
 const Item = () => (
   <div className="item">

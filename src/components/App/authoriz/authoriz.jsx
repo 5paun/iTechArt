@@ -1,12 +1,15 @@
 import React from 'react';
-import './authoriz.scss';
-import AuthorizTitle from './authoriz__title/authoriz__title';
-import FormAuthoriz from './form-authoriz/form-authoriz';
+import './Authoriz.scss';
+import AuthorizTitle from './AuthorizTitle/AuthorizTitle';
+import FormAuthoriz from './FormAuthoriz/FormAuthoriz';
 
 const Authoriz = () => (
   <main>
     <div className="authoriz">
-      <AuthorizTitle title="Sign In Now!" text="Sign in and tell us what you think of the site!" />
+      <AuthorizTitle
+        title="Sign In Now!"
+        text="Sign in and tell us what you think of the site!"
+      />
       <FormAuthoriz />
     </div>
   </main>

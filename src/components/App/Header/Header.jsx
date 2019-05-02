@@ -1,7 +1,7 @@
 import React from 'react';
-import './header.scss';
-import HeaderTop from './header-top/header-top';
-import HeaderBottom from './header-bottom/header-bottom';
+import './Header.scss';
+import HeaderTop from './HeaderTop/HeaderTop';
+import HeaderBottom from './HeaderBottom/HeaderBottom';
 
 const Header = () => (
   <header className="header">

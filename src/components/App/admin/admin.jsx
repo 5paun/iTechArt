@@ -1,8 +1,8 @@
 import React from 'react';
-import './admin.scss';
-import NavTabs from './nav-tabs/nav-tabs';
-import TabContent from './tab-content/tab-content';
-import PopupAddProduct from './popup-add-product/popup-add-product';
+import './Admin.scss';
+import NavTabs from './NavTabs/NavTabs';
+import TabContent from './TabContent/TabContent';
+import PopupAddProduct from './PopupAddProduct/PopupAddProduct';
 
 const Admin = props => (
   <main>
@@ -11,7 +11,7 @@ const Admin = props => (
         <div className="col">
           <NavTabs />
           <TabContent state={props.state} />
-          <PopupAddProduct addProduct={props.AddProduct} />
+          <PopupAddProduct addProductItem={props.addProductItem} />
         </div>
       </div>
     </div>
