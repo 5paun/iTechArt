@@ -1,5 +1,6 @@
 import React from 'react';
 import './PopupAddProduct.scss';
+import { addProductItemActionCreator } from '../../../../redux/state';
 
 const PopupAddProduct = (props) => {
   const newProductTitle = React.createRef();
@@ -15,7 +16,10 @@ const PopupAddProduct = (props) => {
     const picture = newProductPicture.current.value;
     const tags = newProductTags.current.value;
 
-    props.addProductItem(title, description, price, picture, tags);
+    // props.addProductItem(title, description, price, picture, tags);
+    props.dispatch(
+      addProductItemActionCreator(title, description, price, picture, tags)
+    );
     newProductTitle.current.value = '';
     newProductDescription.current.value = '';
     newProductPrice.current.value = '';

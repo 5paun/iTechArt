@@ -10,8 +10,8 @@ const Admin = props => (
       <div className="row">
         <div className="col">
           <NavTabs />
-          <TabContent state={props.state} />
-          <PopupAddProduct addProductItem={props.addProductItem} />
+          <TabContent state={props.adminPage} />
+          <PopupAddProduct dispatch={props.dispatch} />
         </div>
       </div>
     </div>

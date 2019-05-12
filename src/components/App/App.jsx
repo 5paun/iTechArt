@@ -18,10 +18,7 @@ const App = props => (
     <Route
       path="/admin"
       render={() => (
-        <Admin
-          state={props.state.adminPage}
-          addProductItem={props.addProductItem}
-        />
+        <Admin adminPage={props.state.adminPage} dispatch={props.dispatch} />
       )}
     />
     <Footer />
