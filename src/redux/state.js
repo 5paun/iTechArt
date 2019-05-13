@@ -1,4 +1,4 @@
-const ADD_PRODUCT_ITEM = 'ADD-PRODUCT-ITEM';
+import adminReducer from './admin-reducer';
 
 const store = {
   _state: {
@@ -331,37 +331,10 @@ const store = {
   },
 
   dispatch(action) {
-    const { title, description, price, picture, tags } = action;
-
-    if (action.type === ADD_PRODUCT_ITEM) {
-      const newProduct = {
-        id: 13,
-        title,
-        description,
-        price,
-        picture,
-        tags,
-      };
-      this._state.adminPage.products.push(newProduct);
-      this._callSubscriber(this._state);
-    }
+    this._state.adminPage = adminReducer(this._state.adminPage, action);
+    this._callSubscriber(this._state);
   },
 };
-
-export const addProductItemActionCreator = (
-  title,
-  description,
-  price,
-  picture,
-  tags
-) => ({
-  type: ADD_PRODUCT_ITEM,
-  title,
-  description,
-  price,
-  picture,
-  tags,
-});
 
 export default store;
 window.store = store;

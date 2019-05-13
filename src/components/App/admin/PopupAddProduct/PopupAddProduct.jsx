@@ -1,6 +1,6 @@
 import React from 'react';
 import './PopupAddProduct.scss';
-import { addProductItemActionCreator } from '../../../../redux/state';
+import { addProductItemActionCreator } from '../../../../redux/admin-reducer';
 
 const PopupAddProduct = (props) => {
   const newProductTitle = React.createRef();
