@@ -1,6 +1,5 @@
 import React from 'react';
 import './PopupAddProduct.scss';
-import { addProductItemActionCreator } from '../../../../redux/admin-reducer';
 
 const PopupAddProduct = (props) => {
   const newProductTitle = React.createRef();
@@ -9,17 +8,14 @@ const PopupAddProduct = (props) => {
   const newProductPicture = React.createRef();
   const newProductTags = React.createRef();
 
-  const addProductItem = () => {
+  const onAddProductItem = () => {
     const title = newProductTitle.current.value;
     const description = newProductDescription.current.value;
     const price = newProductPrice.current.value;
     const picture = newProductPicture.current.value;
     const tags = newProductTags.current.value;
 
-    // props.addProductItem(title, description, price, picture, tags);
-    props.dispatch(
-      addProductItemActionCreator(title, description, price, picture, tags)
-    );
+    props.addProductItem(title, description, price, picture, tags);
     newProductTitle.current.value = '';
     newProductDescription.current.value = '';
     newProductPrice.current.value = '';
@@ -93,7 +89,7 @@ const PopupAddProduct = (props) => {
             <button
               type="button"
               className="btn btn-primary"
-              onClick={addProductItem}
+              onClick={onAddProductItem}
             >
               Save changes
             </button>

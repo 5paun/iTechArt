@@ -15,12 +15,7 @@ const App = props => (
     <Route path="/main" render={() => <Main />} />
     <Route path="/authoriz" render={() => <Authoriz />} />
     <Route path="/reg" render={() => <Reg />} />
-    <Route
-      path="/admin"
-      render={() => (
-        <Admin adminPage={props.state.adminPage} dispatch={props.dispatch} />
-      )}
-    />
+    <Route path="/admin" render={() => <Admin store={props.store} />} />
     <Footer />
     <Items />
   </React.Fragment>

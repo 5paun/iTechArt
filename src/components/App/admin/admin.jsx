@@ -2,7 +2,7 @@ import React from 'react';
 import './admin.scss';
 import NavTabs from './NavTabs/NavTabs';
 import TabContent from './TabContent/TabContent';
-import PopupAddProduct from './PopupAddProduct/PopupAddProduct';
+import PopupAddProductContainer from './PopupAddProduct/PopupAddProductContainer';
 
 const Admin = props => (
   <main>
@@ -10,8 +10,8 @@ const Admin = props => (
       <div className="row">
         <div className="col">
           <NavTabs />
-          <TabContent state={props.adminPage} />
-          <PopupAddProduct dispatch={props.dispatch} />
+          <TabContent store={props.store} />
+          <PopupAddProductContainer store={props.store} />
         </div>
       </div>
     </div>

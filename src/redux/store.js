@@ -322,7 +322,6 @@ const store = {
   },
 
   getState() {
-    debugger;
     return this._state;
   },
 
