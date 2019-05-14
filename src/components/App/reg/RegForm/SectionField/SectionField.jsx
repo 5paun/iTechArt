@@ -3,10 +3,15 @@ import './SectionField.scss';
 import SectionTitle from './SectionTitle/SectionTitle';
 import AuthorizFields from '../../../authoriz/FormAuthoriz/AuthorizFields/AuthorizFields';
 
-const SectionField = () => (
+const SectionField = props => (
   <section className="section-field">
-    <SectionTitle number="1" title="First Name &amp; Address" />
-    <AuthorizFields />
+    <SectionTitle number={props.number} title={props.title} />
+    <AuthorizFields
+      type1={props.type1}
+      type2={props.type2}
+      text1={props.text1}
+      text2={props.text2}
+    />
   </section>
 );
 

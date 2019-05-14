@@ -4,7 +4,7 @@ import './AuthorizFieldsLabel.scss';
 const AuthorizFieldsLabel = props => (
   <label className="authoriz-fields__label">
     {props.text}
-    <input type="text" name="name" />
+    <input type={props.type} name="name" />
   </label>
 );
 

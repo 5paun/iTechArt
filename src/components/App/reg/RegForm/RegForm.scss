@@ -1,0 +1,17 @@
+input[type="submit"] {
+  background: #88cbbe;
+  padding: 8px 20px 8px 20px;
+  border-radius: 5px;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+  font: normal 30px "Bitter", serif;
+  box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+  border: 1px solid #88cbbe;
+  font-size: 15px;
+  outline: 0;
+
+  &:hover {
+    background: darken(#88cbbe, 10%);
+    box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
+  }
+}

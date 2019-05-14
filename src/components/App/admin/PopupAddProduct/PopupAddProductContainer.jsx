@@ -1,5 +1,5 @@
 import React from 'react';
-import { addProductItemActionCreator } from '../../../../redux/admin-reducer';
+import { addProductItemActionCreator } from '../../../../redux/reducers/adminReducer';
 import PopupAddProduct from './PopupAddProduct';
 
 const PopupAddProductContainer = (props) => {

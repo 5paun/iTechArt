@@ -1,4 +1,4 @@
-const ADD_PRODUCT_ITEM = 'ADD-PRODUCT-ITEM';
+import { actionTypes } from '../actionTypes';
 
 const initialState = {
   users: [
@@ -202,7 +202,7 @@ const initialState = {
 const adminReducer = (state = initialState, action) => {
   const { title, description, price, picture, tags } = action;
   switch (action.type) {
-    case ADD_PRODUCT_ITEM:
+    case actionTypes.ADD_PRODUCT_ITEM:
       const newProduct = {
         id: 13,
         title,
@@ -211,8 +211,10 @@ const adminReducer = (state = initialState, action) => {
         picture,
         tags,
       };
-      state.products.push(newProduct);
-      return state;
+      return {
+        ...state,
+        products: [...state.products, newProduct],
+      };
     default:
       return state;
   }
@@ -225,7 +227,7 @@ export const addProductItemActionCreator = (
   picture,
   tags
 ) => ({
-  type: ADD_PRODUCT_ITEM,
+  type: actionTypes.ADD_PRODUCT_ITEM,
   title,
   description,
   price,

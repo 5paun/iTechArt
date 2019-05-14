@@ -1,5 +1,3 @@
-import adminReducer from './admin-reducer';
-
 const store = {
   _state: {
     adminPage: {

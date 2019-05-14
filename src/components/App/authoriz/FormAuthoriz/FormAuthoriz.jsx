@@ -5,7 +5,12 @@ import AuthorizButton from './AuthorizButton/AuthorizButton';
 
 const FormAuthoriz = () => (
   <form className="form-authoriz">
-    <AuthorizFields />
+    <AuthorizFields
+      text1="Your Username"
+      text2="Password"
+      type1="text"
+      type2="password"
+    />
     <AuthorizButton />
   </form>
 );

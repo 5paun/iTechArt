@@ -1,5 +1,5 @@
 import { combineReducers, createStore } from 'redux';
-import adminReducer from './admin-reducer';
+import adminReducer from './reducers/adminReducer';
 
 const reducers = combineReducers({
   adminPage: adminReducer,
